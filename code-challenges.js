@@ -19,7 +19,23 @@ const fruit4 = "kiwi"
 // Expected outcome: "cherry"
 
 // Pseudo code:
+// Input: 2 strings
+// Output: the longer of the two input strings
+// Evaluate the length
+// Compare the length and return the one bigger length value
+// Conditional statement to evaluate the length
 
+const whichStringIsLonger = (string1, string2) => {
+  if(string1.length > string2.length){
+    return string1
+  } else {
+    return string2
+  }
+}
+console.log(whichStringIsLonger(fruit1, fruit2))
+// --> banana
+console.log(whichStringIsLonger(fruit3, fruit4))
+// --> cherry
 
 // --------------------1) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
