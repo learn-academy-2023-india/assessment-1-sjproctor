@@ -8,10 +8,10 @@
 
 // --------------------INSTRUCTOR EXAMPLE: What will this log?
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
-// console.log(colors.push("indigo"))
+console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: it will log the array with indigo at the last index
+// b) Verify and explain: 5, this is the new length and if I want to see the array I need to log colors and not the push action
 
 // --------------------1) What will this log?
 
